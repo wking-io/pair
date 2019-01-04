@@ -1,0 +1,14 @@
+{
+  "type": "package",
+  "name": "wking-io/pair",
+  "summary": "Canonical Product Type that allows you to hold and use two values in one type.",
+  "source-directories": ["src"],
+  "license": "BSD-3-Clause",
+  "version": "1.0.0",
+  "exposed-modules": ["Pair"],
+  "elm-version": "0.19.0 <= v < 0.20.0",
+  "dependencies": {
+    "elm/core": "1.0.0 <= v < 2.0.0"
+  },
+  "test-dependencies": {}
+}
