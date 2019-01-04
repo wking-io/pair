@@ -4,7 +4,7 @@
   "summary": "Canonical Product Type that allows you to hold and use two values in one type.",
   "source-directories": ["src"],
   "license": "BSD-3-Clause",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "exposed-modules": ["Pair"],
   "elm-version": "0.19.0 <= v < 0.20.0",
   "dependencies": {
