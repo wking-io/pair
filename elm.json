@@ -1,7 +1,7 @@
 {
   "type": "package",
   "name": "wking-io/pair",
-  "summary": "Canonical Product Type that allows you to hold and use two values in one type.",
+  "summary": "Product Type that allows you to hold and use two values in one type.",
   "source-directories": ["src"],
   "license": "BSD-3-Clause",
   "version": "0.1.0",
