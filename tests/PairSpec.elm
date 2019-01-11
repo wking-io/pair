@@ -22,7 +22,7 @@ suite =
                     in
                     Expect.all
                         [ Expect.notEqual Nothing
-                        , Expect.equal <| (Maybe.map2 randomMaybe result |> Maybe.withDefault false)
+                        , Expect.equal <| (Maybe.map2 compareResult randomMaybe result |> Maybe.withDefault false)
                         ]
             ]
         ]
