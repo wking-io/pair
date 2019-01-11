@@ -1,23 +1,11 @@
 {
   "name": "elm-pair",
-  "version": "0.0.1",
-  "description": "A Product Type that allows you to hold and use two values in one type. This useful for working with more than one related value similar to tuple or list, but since it is limited to only two values the API is more focused.",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
     "elm-test": "0.19.0-rev3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "elm-test tests/PairSpec.elm"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wking-io/pair.git"
-  },
-  "author": "Will King <contact@wking.io> (https://www.wking.io/)",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/wking-io/pair/issues"
-  },
-  "homepage": "https://github.com/wking-io/pair#readme"
+  }
 }
