@@ -10,7 +10,6 @@ import Pair
 
 -- A math example
 
-
 average : List Float -> Float
 average list =
   list
@@ -23,15 +22,16 @@ average [ 9, 11, 34 ] -- > 18
 
 -- More complex example.
 
-
 type alias Item =
   { name : String
   , cost : Float
   }
 
+
 sumCart : List Items -> Float
 sumCart items =
   List.foldl (\acc { price } -> total + price ) 0 items
+
 
 calculateCart : List Items -> Pair (List Items) Float
 calculateCart items =
@@ -45,11 +45,13 @@ calculateCart
   , { name = "Tangerine", price = 0.98 }
   ]
 
--- > Pair
+{- > Pair
         [ { name = "Apple", price = 0.75 }
         , { name = "Banana", price = 0.53 }
         , { name = "Tangerine", price = 0.98 }
         ]
         2.26
+
+-}
 
 ```
